@@ -1,0 +1,16 @@
+---
+title: Number of Times ticket was closed with comment same as resolution to another ticket
+layout: kpi
+author: Pushparajan
+---
+Most times tickets created have a similar fix for a issue that was closed already. The teams should not be spending time in analysing the same issue for a long time. they should learn to fix them quickly
+
+
+
+## Formula
+The total number of assignees can be determined through simple addition:
+* N<sub>a</sub>: Number of tickets that have a link to a similar ticket
+* N<sub>t</sub>: Time spent on analysis and design on the ticket
+
+## Maturity Score
+When a ticket is identified as a similar issue that was closed earlier then the team should not be spending much time on the ticket. The effort to fix may not reduce signnificantly yet there should be negligible analysis and design time
